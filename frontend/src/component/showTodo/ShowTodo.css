@@ -1,0 +1,38 @@
+.todo_show_container {
+    max-width: 550px;
+    margin: auto;
+    margin-top: 1rem;
+}
+.todo_item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+.pending {
+    border: 2px solid blue;
+    border-radius: 5px;
+    padding: 6px 10px;
+}
+.completed {
+    border: 2px solid green;
+    border-radius: 5px;
+    padding: 6px 10px;
+}
+.expired {
+    border: 2px solid red;
+    border-radius: 5px;
+    padding: 6px 10px;
+}
+.todo_item_title {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+.todo_item_status{
+    flex: 1
+}
+.disabledButton {
+    background-color: #ccc;
+    cursor: not-allowed;
+}

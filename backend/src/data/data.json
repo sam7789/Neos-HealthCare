@@ -1,0 +1,57 @@
+{
+  "users": [
+    {
+      "id": "a864c58c4a7cd8f6abff",
+      "name": "sammy",
+      "email": "sam1@gmail.com",
+      "phoneno": "7735993409",
+      "password": "609e9e2a29038323fedb71c1e0a21484543e0b1c313f3232ecb8187baf172afc"
+    },
+    {
+      "id": "c8222f70d11fc1b658dc",
+      "name": "sammy",
+      "email": "sam@gmail.com",
+      "phoneno": "7008261840",
+      "password": "609e9e2a29038323fedb71c1e0a21484543e0b1c313f3232ecb8187baf172afc"
+    }
+  ],
+  "todos": [
+    {
+      "id": "ce30ac2160279677ef96",
+      "title": "Learning Node Js",
+      "status": "pending",
+      "userId": "a864c58c4a7cd8f6abff",
+      "createdAt": "2022-07-14T04:08:47.072Z"
+    },
+    {
+      "id": "a61a17089efe558ebb0e",
+      "title": "Learning React",
+      "status": "pending",
+      "userId": "a864c58c4a7cd8f6abff",
+      "createdAt": "2022-07-14T04:08:59.620Z"
+    },
+    {
+      "id": "ea5a0471aea6f0576170",
+      "title": "Learning JavaScript",
+      "status": "pending",
+      "userId": "a864c58c4a7cd8f6abff",
+      "createdAt": "2022-07-14T04:09:16.618Z"
+    },
+    {
+      "id": "db9d05af313832ee5a41",
+      "title": "Learning C++",
+      "status": "pending",
+      "userId": "c8222f70d11fc1b658dc",
+      "createdAt": "2022-07-14T04:11:22.497Z"
+    }
+  ],
+  "expiredTodos": [
+    {
+      "id": "c341f9d53ed6d019bb12",
+      "title": "Learning Java",
+      "userId": "c8222f70d11fc1b658dc",
+      "status": "Completed",
+      "updatedAt": "2022-07-14T04:17:22.298Z"
+    }
+  ]
+}
